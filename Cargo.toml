@@ -1,0 +1,23 @@
+[package]
+name = "worker"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+chrono = "0.4"
+axum = "0.7"
+async-nats = "0.33"
+lazy_static = "1.4"
+regex = "1"
+uuid = { version = "1.19.0", features = ["v4"] }
+futures = "0.3"
+prometheus = "0.13"
+serial_test = "2"
+reqwest = { version = "0.12.28", features = ["json", "rustls-tls"] }
+jmespath = "0.4.0"
+boa_engine = "0.21.0"
+sqlx = { version = "0.8.6", features = ["postgres", "runtime-tokio-rustls", "tls-rustls"] }
+base64 = "0.22"
