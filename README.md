@@ -1,6 +1,6 @@
 # Beamline Worker
 
-A high-performance, modular, and secure Rust-based execution runtime for the Beamline Scheduler (CAF). This worker consumes job assignments from NATS, executes them using specialized handlers, and reports results back to the scheduler.
+A high-performance, modular, and secure Rust-based execution runtime for the Beamline Scheduler. This worker consumes job assignments from NATS, executes them using specialized handlers, and reports results back to the scheduler.
 
 ## Features
 
