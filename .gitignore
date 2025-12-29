@@ -25,3 +25,6 @@ worker-dlq.jsonl
 worker-dlq.jsonl.*
 test_fs_blob_get.txt
 test_fs_blob_put.txt
+
+# AI Assistant
+.ai/
